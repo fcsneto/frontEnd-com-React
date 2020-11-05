@@ -3,4 +3,4 @@ import {render} from 'react-dom';
 
 import App from './App';
 
-render(<App />, documente.getElementById('app'));
+render(<App />, document.getElementById('app'));
