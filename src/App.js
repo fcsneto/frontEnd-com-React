@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 
 import './App.css';
+import avatar from './assets/img.png';
 
 import Header from './components/Header';
 
@@ -14,6 +15,7 @@ function App(){
     return (
         <>
             <Header title="Projects"/>
+            <img width={300} src={avatar}/>
             <ul>
                 {projects.map(project => <li key={project}>{project}</li>)}
             </ul>
